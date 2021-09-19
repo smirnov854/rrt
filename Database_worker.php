@@ -13,7 +13,7 @@ class Database_worker
             echo "Ошибка подключения к БД";
             die();
         }
-    }
+    } 
 
     public function reconnect(){
         if(!mysqli_ping($this->conn)){
